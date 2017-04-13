@@ -1,0 +1,15 @@
+---
+- name: Get stack dump script
+  get_url:
+    url: https://raw.githubusercontent.com/goneri/tripleo-stack-dump/master/tripleo-stack-dump
+    dest: ~/tripleo-stack-dump
+    mode: 0755
+
+- name: Execute tripleo-stack-dump
+  shell: source ~/stackrc && ./tripleo-stack-dump overcloud
+
+- name: Fetch dump result
+  fetch:
+    src: ~/tripleo-stack-dump.json
+    dest: "{{ lookup('env', 'PWD') }}/tripleo-stack-dump.json"
+    flat: yes
