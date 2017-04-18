@@ -12,3 +12,4 @@
 
 ---
 stackdump_result_filename: tripleo-stack-dump.json
+stackdump_stackname: overcloud
