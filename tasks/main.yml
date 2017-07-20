@@ -23,5 +23,5 @@
 - name: Fetch dump result
   fetch:
     src: ~/tripleo-stack-dump.json
-    dest: "{{ lookup('env', 'PWD') }}/{{ stackdump_result_filename }}"
+    dest: "{{ stackdump_dest_dir }}/{{ stackdump_result_filename }}"
     flat: yes

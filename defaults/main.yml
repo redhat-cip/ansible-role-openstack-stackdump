@@ -13,3 +13,4 @@
 ---
 stackdump_result_filename: tripleo-stack-dump.json
 stackdump_stackname: overcloud
+stackdump_dest_dir: "{{ lookup('env', 'PWD') }}"
