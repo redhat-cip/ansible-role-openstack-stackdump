@@ -22,6 +22,30 @@
       "revId": "dd8193f7c57029a736fb9e7c010540f666743fd1",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aa745d1_462fc8a1",
+        "filename": "defaults/main.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 30
+      },
+      "writtenOn": "2017-07-26T13:25:26Z",
+      "side": 1,
+      "message": "Indeed. I messed a rebase.",
+      "parentUuid": "5aa745d1_a63facd5",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 58
+      },
+      "revId": "dd8193f7c57029a736fb9e7c010540f666743fd1",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0",
+      "unresolved": false
     }
   ]
 }
